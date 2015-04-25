@@ -26,7 +26,7 @@ public class AnsjTest
 		Token nt = new Token();
 		Analyzer ca = new AnsjAnalysis();
 		Reader sentence = new StringReader(
-				"事主张三主张认真");
+				"事主张三主张认真s");
 		TokenStream ts = ca.tokenStream("sentence", sentence);
 
 		System.out.println("start: " + (new Date()));
