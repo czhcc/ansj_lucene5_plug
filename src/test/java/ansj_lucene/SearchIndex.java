@@ -45,7 +45,7 @@ public class SearchIndex
 			// 创建parser来确定搜索的内容,第二个参数表示搜索的域
 			QueryParser parser = new QueryParser("content", stdAn);
 			// 创建query，表示搜索域中包含'Directory'的文档
-			Query query = parser.parse("三丰");
+			Query query = parser.parse("czhcd");
 			// 5.根据search搜索返回TopDocs，要设置返回条数
 			TopDocs docs = searcher.search(query, 10);
 			// 6.根据TopDocs获取ScoreDoc

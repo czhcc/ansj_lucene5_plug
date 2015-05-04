@@ -1,9 +1,7 @@
 package org.ansj.lucene5;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.Reader;
-import java.io.StringReader;
 import java.util.Set;
 
 import org.ansj.lucene.util.AnsjTokenizer;
